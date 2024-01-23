@@ -1,14 +1,15 @@
 
 function generateRandomColor() {
-    var red = Math.floor(Math.random() * 256);
-    var green = Math.floor(Math.random() * 256);
-    var blue = Math.floor(Math.random() * 256);
-    console.log(red)
-    console.log(green)
-    console.log(blue)
+            var red = Math.floor(Math.random() * 256);
+            var green = Math.floor(Math.random() * 256);
+            var blue = Math.floor(Math.random() * 256);
+            var randomColor = `rgb(${red}, ${green}, ${blue})`;
+            
+            document.getElementById('colorBox').style.backgroundColor = randomColor;
+            document.getElementById('colorCode').innerText = randomColor;
+        }
 
-    var randomColor = `rgb(${red}, ${green}, ${blue})`;
-    console.log(randomColor)
 
-    document.getElementById('colorBox').style.backgroundColor = randomColor;
-}
+console.log(red)
+console.log(green)
+console.log(blue)
