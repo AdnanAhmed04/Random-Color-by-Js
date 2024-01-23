@@ -1,17 +1,11 @@
-body {
-    font-family: 'Arial', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-}
+ #colorBox {
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            border: 2px solid #333;
+        }
 
-
-
-.color-box {
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-    border: 2px solid #333;
-}
+        #colorCode {
+            font-size: 18px;
+            margin-top: 10px;
+        }
